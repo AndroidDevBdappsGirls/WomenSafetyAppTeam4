@@ -1,16 +1,38 @@
-# women_safety_app
+# Aparajita (A Women Safety App)
 
-A new Flutter application.
+**(Team-4)**
 
-## Getting Started
+**Developed By**
 
-This project is a starting point for a Flutter application.
+- Tahiya Sultana Safa
+- Susama Mondal
+- Sumiya Afrose
 
-A few resources to get you started if this is your first Flutter project:
+# Visions
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+To Protect Our Girl,  Make Them Aware about Self Defense Tips and Techniques. Create Survey to Collaborate with Police, Hospitals and Different Organization according to Violence and Rape Rate.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Key Features
+
+**Get User's Current Location**
+**SOS Button**
+    - Emergency Text
+    - Location Link
+    - Push Notification
+**Call Emergency Contacts**
+**Self Defense Techniques**
+**Survey**
+
+### Platform: Flutter
+### Language: Dart
+
+## Mind Mapping
+https://miro.com/app/board/o9J_kgycuxc=/
+
+## Trello Board
+https://trello.com/b/2XX1bFm2/aparajita-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A4%E0%A6%BE-team-04-delta
+
+## Presentation
+https://docs.google.com/presentation/d/1MtK40PT9TOqDTFtO_IjyJk-0WSb1LbzUt74FGfppFG8/edit#slide=id.ga68c800876_4_0
+
+
