@@ -25,6 +25,7 @@ To Protect Our Girl,  Make Them Aware about Self Defense Tips and Techniques. Cr
 
 ### Platform: Flutter
 ### Language: Dart
+### Database System: Firebase
 
 ## Mind Mapping
 https://miro.com/app/board/o9J_kgycuxc=/
