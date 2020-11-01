@@ -74,7 +74,7 @@ class _ShowContactState extends State<ShowContact> {
                                   itemCount: snapshot.data.documents.length,
                                   itemBuilder: (context, index) {
                                     DocumentSnapshot documentSnapshot =
-                                        snapshot.data.documents[index];
+                                    snapshot.data.documents[index];
                                     return Padding(
                                       padding: const EdgeInsets.only(top: 20.0),
                                       child: Row(
@@ -91,7 +91,7 @@ class _ShowContactState extends State<ShowContact> {
                                           Expanded(
                                             child: Text(
                                               documentSnapshot[
-                                                      "contactNumber"] ??
+                                              "contactNumber"] ??
                                                   "",
                                               style: TextStyle(
                                                   color: Colors.red,
@@ -106,15 +106,16 @@ class _ShowContactState extends State<ShowContact> {
                                                   fontFamily: 'Segoe UI'),
                                             ),
                                           ),
-                                          Expanded(
-                                            child: SizedBox(
-                                              width: 20,
+                                          SizedBox(width: 20.0,),
+                                          ButtonTheme(
+                                            minWidth: 100.0,
+                                            height: 40.0,
                                               child: RaisedButton(
                                                 color: Color(0xFFE22C3C),
                                                 shape: RoundedRectangleBorder(
                                                   borderRadius:
-                                                      BorderRadius.circular(
-                                                          10.0),
+                                                  BorderRadius.circular(
+                                                      10.0),
                                                   side: BorderSide(
                                                       color: Colors.red),
                                                 ),
@@ -131,7 +132,6 @@ class _ShowContactState extends State<ShowContact> {
 
                                                 },
                                               ),
-                                            ),
                                           ),
                                         ],
                                       ),
@@ -172,7 +172,7 @@ class _ShowContactState extends State<ShowContact> {
                               itemCount: snapshot.data.documents.length,
                               itemBuilder: (context, index) {
                                 DocumentSnapshot documentSnapshot =
-                                    snapshot.data.documents[index];
+                                snapshot.data.documents[index];
                                 return Padding(
                                   padding: const EdgeInsets.only(top: 20.0),
                                   child: Row(
@@ -193,16 +193,17 @@ class _ShowContactState extends State<ShowContact> {
                                               fontFamily: 'Segoe UI'),
                                         ),
                                       ),
-                                      Expanded(
-                                        child: SizedBox(
-                                          width: 10.0,
+                                      SizedBox(width: 10.0,),
+                                      ButtonTheme(
+                                        minWidth: 100.0,
+                                        height: 40.0,
                                           child: RaisedButton(
                                             color: Color(0xFFE22C3C),
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
-                                                  BorderRadius.circular(10.0),
+                                              BorderRadius.circular(10.0),
                                               side:
-                                                  BorderSide(color: Colors.red),
+                                              BorderSide(color: Colors.red),
                                             ),
                                             child: Text(
                                               ' Call',
@@ -217,7 +218,6 @@ class _ShowContactState extends State<ShowContact> {
 
                                             },
                                           ),
-                                        ),
                                       ),
                                     ],
                                   ),
@@ -260,7 +260,7 @@ class _ShowContactState extends State<ShowContact> {
                               itemCount: snapshot.data.documents.length,
                               itemBuilder: (context, index) {
                                 DocumentSnapshot documentSnapshot =
-                                    snapshot.data.documents[index];
+                                snapshot.data.documents[index];
                                 return Padding(
                                   padding: const EdgeInsets.only(
                                       top: 20.0),
@@ -282,16 +282,17 @@ class _ShowContactState extends State<ShowContact> {
                                               fontFamily: 'Segoe UI'),
                                         ),
                                       ),
-                                      Expanded(
-                                        child: SizedBox(
-                                          width: 20,
+                                      SizedBox(width: 20.0,),
+                                      ButtonTheme(
+                                        minWidth: 100.0,
+                                        height: 40.0,
                                           child: RaisedButton(
                                             color: Color(0xFFE22C3C),
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
-                                                  BorderRadius.circular(10.0),
+                                              BorderRadius.circular(10.0),
                                               side:
-                                                  BorderSide(color: Colors.red),
+                                              BorderSide(color: Colors.red),
                                             ),
                                             child: Text(
                                               ' Call',
@@ -309,7 +310,6 @@ class _ShowContactState extends State<ShowContact> {
 
                                             },
                                           ),
-                                        ),
                                       ),
                                     ],
                                   ),
